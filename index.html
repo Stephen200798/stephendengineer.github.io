@@ -3,15 +3,17 @@
     Massively by HTML5 UP
     html5up.net | @ajlkn
 -->
-<html>
+<html lang="en">
 <head>
-    <title>Stephen D.Eng Portfolio</title>
+    <title>Stephen Akinfe | Data Engineer Portfolio</title>
     <meta charset="utf-8" />
+    <meta name="description" content="Data Engineer portfolio showcasing SQL, Python, Databricks, and AWS projects." />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
-    <!-- Inline CSS for profile image -->
+    <!-- Profile Image + Enhancements -->
     <style>
         .profile-pic {
             width: 180px;
@@ -19,7 +21,16 @@
             border-radius: 50%;
             object-fit: cover;
             margin-bottom: 1.5rem;
-            border: 3px solid rgba(255,255,255,0.4);
+            border: 3px solid rgba(255,255,255,0.5);
+        }
+
+        .tech-stack span {
+            display: inline-block;
+            background: rgba(255,255,255,0.15);
+            padding: 6px 12px;
+            margin: 4px;
+            border-radius: 20px;
+            font-size: 0.85rem;
         }
 
         @media screen and (max-width: 736px) {
@@ -33,23 +44,28 @@
 
 <body class="is-preload">
 
-<!-- Wrapper -->
 <div id="wrapper" class="fade-in">
 
     <!-- Intro -->
     <div id="intro">
-
-        <!-- PROFILE PHOTO -->
         <img src="images/1750745441617.jpg" alt="Stephen Akinfe" class="profile-pic" />
 
-        <h1>Stephen's Data Engineer Portfolio</h1>
+        <h1>Stephen Akinfe</h1>
+        <h2>Data Engineer</h2>
 
         <p>
-            I’m a developer with experience in Python, SQL, and Databricks,<br />
-            and a working knowledge of AWS. I enjoy exploring data,<br />
-            optimizing workflows, and building practical solutions.  Based in Lagos, Nigeria.<br />
-            <a href="https://www.linkedin.com/in/stephen-akinfe-6692632b3/">@StephenAkinfe</a><br />
+            I build analytics-ready data systems using SQL, Python, and cloud tools.<br />
+            Passionate about data modeling, ETL pipelines, and scalable architectures.<br />
+            Based in Lagos, Nigeria.
         </p>
+
+        <div class="tech-stack">
+            <span>Python</span>
+            <span>SQL</span>
+            <span>Databricks</span>
+            <span>AWS</span>
+            <span>Data Warehousing</span>
+        </div>
 
         <ul class="actions">
             <li>
@@ -62,7 +78,7 @@
 
     <!-- Header -->
     <header id="header">
-        <a href="index.html" class="logo">Stephen Data Engineer</a>
+        <a href="index.html" class="logo">Stephen | Data Engineer</a>
     </header>
 
     <!-- Nav -->
@@ -73,12 +89,14 @@
         <ul class="icons">
             <li>
                 <a href="https://www.linkedin.com/in/stephen-akinfe-6692632b3"
+                   target="_blank" rel="noopener"
                    class="icon brands alt fa-linkedin">
                     <span class="label">LinkedIn</span>
                 </a>
             </li>
             <li>
                 <a href="https://github.com/Stephen200798"
+                   target="_blank" rel="noopener"
                    class="icon brands alt fa-github">
                     <span class="label">GitHub</span>
                 </a>
@@ -93,25 +111,28 @@
         <article class="post featured">
             <header class="major">
                 <h2>
-                    <a href="https://github.com/Stephen200798/sql-data-warehouse-project/tree/main">
-                        Building SQL Data Warehouse
+                    <a href="https://github.com/Stephen200798/sql-data-warehouse-project"
+                       target="_blank" rel="noopener">
+                        SQL Data Warehouse Architecture
                     </a>
                 </h2>
                 <p>
-                    Built a SQL data warehouse using Bronze, Silver, and Gold layers,<br />
-                    with full planning and data modeling documented in Notion and draw.io.<br />
-                    Designed for analytics-ready data.
+                    Designed and implemented a modern SQL data warehouse using<br />
+                    Bronze, Silver, and Gold layers with clean data modeling.<br />
+                    Optimized for analytics and reporting use cases.
                 </p>
             </header>
 
-            <a href="https://github.com/Stephen200798/sql-data-warehouse-project/tree/main"
+            <a href="https://github.com/Stephen200798/sql-data-warehouse-project"
+               target="_blank" rel="noopener"
                class="image main">
-                <img src="images/warehouse.png" alt="SQL Data Warehouse" />
+                <img src="images/warehouse.png" alt="SQL Data Warehouse Architecture" />
             </a>
 
             <ul class="actions special">
                 <li>
-                    <a href="https://github.com/Stephen200798/sql-data-warehouse-project/tree/main"
+                    <a href="https://github.com/Stephen200798/sql-data-warehouse-project"
+                       target="_blank" rel="noopener"
                        class="button large">
                         View Project
                     </a>
@@ -119,22 +140,22 @@
             </ul>
         </article>
 
-        <!-- Upcoming Projects -->
+        <!-- More Projects -->
         <section class="posts">
             <article>
                 <header>
-                    <h2><a href="#">Upcoming Project</a></h2>
+                    <h2>More Projects Coming</h2>
                 </header>
-                <a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-                <p>Loading soon</p>
+                <a class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+                <p>Currently building additional data engineering projects.</p>
             </article>
 
             <article>
                 <header>
-                    <h2><a href="#">Upcoming Project</a></h2>
+                    <h2>Upcoming Projects</h2>
                 </header>
-                <a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-                <p>Loading soon</p>
+                <a class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+                <p>Stay Tuned.</p>
             </article>
         </section>
 
@@ -145,35 +166,36 @@
         <section class="split contact">
             <section class="alt">
                 <h3>Location</h3>
-                <p>Ayobo, Lagos 100276</p>
+                <p>Lagos, Nigeria</p>
             </section>
+
             <section>
                 <h3>Phone</h3>
-                <p><a href="#">(+234) 816-2788-752</a></p>
+                <p><a href="tel:+2348162788752">(+234) 816-278-8752</a></p>
             </section>
+
             <section>
                 <h3>Email</h3>
-                <p><a href="#">akinfestephen52@gmail.com</a></p>
+                <p><a href="mailto:akinfestephen52@gmail.com">akinfestephen52@gmail.com</a></p>
             </section>
+
             <section>
                 <h3>Social</h3>
-                
-				<ul class="icons alt">
-
+                <ul class="icons alt">
                     <li><a href="https://www.linkedin.com/in/stephen-akinfe-6692632b3"
+                           target="_blank" rel="noopener"
                            class="icon brands alt fa-linkedin"></a></li>
-
                     <li><a href="https://github.com/Stephen200798"
+                           target="_blank" rel="noopener"
                            class="icon brands alt fa-github"></a></li>
                 </ul>
             </section>
         </section>
     </footer>
 
-    <!-- Copyright -->
     <div id="copyright">
         <ul>
-            <li>&copy; Stephen</li>
+            <li>&copy; Stephen Akinfe</li>
         </ul>
     </div>
 
@@ -190,6 +212,3 @@
 
 </body>
 </html>
-
-
-
